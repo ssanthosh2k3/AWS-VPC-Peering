@@ -44,11 +44,17 @@ This guide provides step-by-step instructions to create and configure AWS VPC Pe
   sudo systemctl restart nginx
   ```
 
+  ![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-21-12.png)
+  ![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-48.png)
+
+
 ## Create Peering Connection
 ### Step 7: Initiate Peering Connection
 - **Requester:** VPC1 (Production VPC)
 - **Accepter:** VPC2 (Staging VPC)
 - Accept the peering request from VPC2
+
+![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-21-25.png)
 
 ### Step 8: Update Route Tables
 - **In VPC1:** Add a route to `13.0.0.0/24` via Peering Connection
@@ -65,12 +71,13 @@ This guide provides step-by-step instructions to create and configure AWS VPC Pe
   curl http://<private-ip-of-production-vm>
   ```
 
+![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-33.png)
+![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-33.png)
+
+
 If everything is set up correctly, the VMs in both VPCs should communicate via their private IPs.
 
 ## Conclusion
 You have successfully configured AWS VPC Peering between two VPCs, enabling private communication between instances in separate networks.
 
 ---
-
-### Author
-[Your Name]
