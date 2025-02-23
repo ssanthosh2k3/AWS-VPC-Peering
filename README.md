@@ -72,7 +72,7 @@ This guide provides step-by-step instructions to create and configure AWS VPC Pe
   ```
 
 ![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-33.png)
-![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-33.png)
+![Pipeline Script](https://github.com/ssanthosh2k3/AWS-VPC-Peering/blob/main/Screenshot%20from%202025-02-24%2002-20-39.png)
 
 
 If everything is set up correctly, the VMs in both VPCs should communicate via their private IPs.
